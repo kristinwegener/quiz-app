@@ -1,0 +1,80 @@
+.question-block {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  background-color: var(--tertiary-color);
+  border-radius: 18px;
+  position: relative;
+}
+
+fieldset {
+  border: none;
+}
+
+legend {
+  margin: auto;
+  width: 90%;
+  text-align: center;
+  padding-top: 60px;
+}
+
+summary {
+  margin: 20px;
+  border-radius: 20x;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: var(--primary-color);
+  display: inline;
+  color: var(--tertiary-color);
+  border-radius: 10px;
+}
+
+details {
+  margin: auto;
+  text-align: center;
+}
+
+details > p {
+  border: 2px dotted var(--secondary-color);
+  width: 70%;
+  padding: 8px;
+  margin: auto;
+  margin-bottom: 15px;
+  background-color: var(--secondary-color-blush);
+  font-size: 0.8rem;
+}
+
+/* Styling für die Badges (#HTML, #CSS usw.)*/
+
+.badges {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+  gap: 5px;
+}
+
+.badges li {
+  padding: 3px;
+  padding-left: 9px;
+  padding-right: 9px;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  background-color: var(--secondary-color-blush);
+}
+
+/* Styling für das Bookmark Icon*/
+
+.bookmark-icon {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: 1px solid lightblue;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  background-color: var(--primary-color-blush);
+}

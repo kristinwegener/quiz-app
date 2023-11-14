@@ -1,0 +1,26 @@
+footer {
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--primary-color-blush);
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+.nav li {
+  padding: 10px;
+  font-size: 1.2rem;
+  color: rgb(180, 195, 213);
+}
+
+a {
+  text-decoration: none;
+}

@@ -1,110 +1,23 @@
+@import "/css/components/navigation.css";
+@import "/css/components/card.css";
+@import "/css/components/header.css";
+
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #5e2dc1;
+  --primary-color-blush: rgb(232, 224, 251);
+  --secondary-color: #fc5f1a;
+  --secondary-color-blush: #f4d2c4;
+  --tertiary-color: white;
+  --text-color: #171717;
 }
 
 body {
-    margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(40,40,40);
-    background-color: rgb(228, 229, 229);
-}
-
-h1 {
-    text-align: center;
-    font-weight:700;
-}
-
-.question-block {
-    border: 1px solid lightgrey;
-    width: 80%;
-    margin: auto;
-    margin-top: 20px;
-    background-color: white;
-    border-radius: 18px;
-    position: relative;
-}
-
-fieldset {
-    border: none;
-    padding: 0;
-}
-
-legend {
-    margin: auto;
-    padding-top: 60px;
-    width: 90%;
-    text-align: center;
-}
-
-summary {
-    margin: 20px;
-    border-radius: 20x;
-    padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    background-color: #1D4ED8;
-    display: inline;
-    color: white;
-    border-radius: 10px;
-}
-
-details {
-    margin: auto;
-    text-align: center;
-}
-
-.badges {
-    list-style: none;
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    margin-top: 0;
-    padding-bottom: 20px;
-}
-
-.badges li {
-    background-color: #DBEAFE;
-    color: #1D4ED8;
-    margin: 3px;
-    padding: 3px;
-    padding-left: 9px;
-    padding-right: 9px;
-    border-radius: 15px;
-    font-size: 0.8rem;
-}
-
-.bookmark-icon {
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    border: none;
-    border-radius: 5px;
-    font-size: 1.2rem;
-    background-color: #DBEAFE;
-}
-
-footer {
-    position: sticky;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin-top: 15px;
-    background-color: rgb(242, 248, 252);
-}
-
-.nav {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    width: 80%;
-    margin: auto;
-    padding: 20px;
-}
-
-.nav li {
-    padding: 10px;
-    font-size: 1.2rem;
-    color: rgb(180,195,213);
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--text-color);
+  background-color: var(--primary-color);
 }
